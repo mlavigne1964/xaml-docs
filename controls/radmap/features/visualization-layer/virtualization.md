@@ -18,7 +18,7 @@ The __VisualizationLayer__ exposes the following properties:
 
 * __RenderWhileMotion__ - a property of type bool that gets or sets a value indicating whether the layer should request and render items while the user is zooming or panning.            
 
-* __VirtualizationSource__ - a property of type __IMapVirtualizationSource__ that gets or sets the item source of the layer.            
+* __VirtualizationSource__ - a property of type __IMapItemsVirtualizationSource__ that gets or sets the item source of the layer.            
 
 * __ZoomLevelGridList__ - a property of type __ZoomLevelGridCollection__ that gets the collection of __ZoomLevelGrids__ used to specify the map division.            
 
